@@ -10,7 +10,7 @@
   "author": "SUPERCHIEFYT (Elara-Services)",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "11.6.4",
-    "discord.js-commando": "0.10.0"
+    "discord.js": "12.3.1",
+    "discord.js-commando": "github:discordjs/Commando#master"
   }
 }

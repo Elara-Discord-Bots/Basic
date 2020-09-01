@@ -4,7 +4,6 @@ const {CommandoClient} = require('discord.js-commando'),
         commandPrefix: "!",
         fetchAllMembers: true,
         commandEditableDuration: 10000,
-        unknownCommandResponse: false,
         invite: "https://discord.gg/InviteHere",
       });
 
@@ -19,7 +18,8 @@ client.registry
             prefix: true, 
             help: true, 
             commandState: true, 
-            eval_: true
+            eval_: true,
+            unknownCommand: false
       })
       .registerDefaultTypes()
       .registerCommandsIn(require('path').join(__dirname, 'commands'))
